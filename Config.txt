@@ -1,0 +1,2 @@
+DeltaruneDirectory="H:\Games\DELTARUNE\mus"
+OSTDirectory="H:\Games\DELTARUNE\DELTARUNESoundtrack"
