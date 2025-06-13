@@ -1,8 +1,8 @@
 import pandas as pd 
 import os
-import ffmpeg
 import subprocess
 import sys
+from os.path import dirname as up
 
 
 
@@ -26,7 +26,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
         outputFilePath+'.ogg'
         
         ]
-
+       
         subprocess.run(command, check=True, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
     
 
@@ -125,7 +125,6 @@ def TrimmedConverter(musicFileNames,deltaruneDirectory,ostDirectory):
 
 
 #workingPath = 
-os.chdir(sys.path[0])
 
 configFile = open("Config.txt")
 musicFileNames = pd.read_csv("MusicFileNames.csv")
@@ -133,7 +132,6 @@ musicFileNamesSpecialFiles = pd.read_csv("MusicFileNamesSpecialFiles.csv")
 musicFileNamesTrimmedSongs = pd.read_csv("MusicFileNamesTrimmedSongs.csv")
 musicFileNamesLength = len(musicFileNames)
 musicFileNamesSpecialFilesLength = len(musicFileNamesSpecialFiles)
-print(musicFileNamesSpecialFilesLength)
 musicFileNamesTrimmedSongsLength = len(musicFileNamesTrimmedSongs)
 deltaruneDirectory = configFile.readline()
 deltaruneDirectory = deltaruneDirectory[deltaruneDirectory.find('"'):deltaruneDirectory.find('"',deltaruneDirectory.find('"')+1)+1]
@@ -163,4 +161,5 @@ while(count<musicFileNamesTrimmedSongsLength):
 
 
 print("Completed Successfully")
+input("Press enter to exit....")
    
