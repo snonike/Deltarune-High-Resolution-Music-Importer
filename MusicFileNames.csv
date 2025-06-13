@@ -20,7 +20,7 @@
 019 Scarlet Forest,forest,2;08,2;08,No
 020 Thrash Machine,thrashmachine,0;54,0;54,No
 021 Vs. Lancer,lancerfight,0;42,0;41,Yes
-022 Basement,basement,0;28,0;26,Yes
+022 Basement,basement,0;27,0;26,Yes
 023 Imminent Death,tense,0;20,0;20,No
 024 Vs. Susie,vs_susie,1;21,1;21,No
 025 Card Castle,card_castle,1;01,1;01,Yes
@@ -29,7 +29,7 @@
 028 Hip Shop,hip_shop,0;39,0;39,No
 029 Gallery,GALLERY,0;12,0;12,No
 030 Chaos King,kingboss,1;46,1;46,No
-031 Darkness Falls,AUDIO_DARKNESS,1;07,1;09,Yes
+031 Darkness Falls,AUDIO_DARKNESS,1;06,1;09,Yes
 032 The Circus,prejoker,0;51,0;51,No
 033 THE WORLD REVOLVING,joker,1;41,1;41,No
 034 Friendship,friendship,2;40,2;39,Yes
@@ -58,7 +58,7 @@
 059 Holiday Studio,cybershop_christmas,1;08,1;06,Yes
 060 Cool Mixtape,queen_car_radio,0;26,0;26,No
 061 HEY EVERY !,spamton_meeting_intro,0;18,0;02,Yes
-062 Spamton,spamton_meeting,0;43,0;40,Yes
+062 Spamton,spamton_meeting,0;42,0;40,Yes
 063 NOW'S YOUR CHANCE TO BE A,spamton_battle,1;07,1;05,Yes
 064 Elegant Entrance,mansion_entrance,1;18,1;16,Yes
 065 Bluebird of Misfortune,berdly_flashback,0;49,0;48,Yes
@@ -83,17 +83,17 @@
 084 You Can Always Come Home,home,1;43,1;40,Yes
 085 Until Next Time,ch2_credits,1;02,1;01,Yes
 086 Before The Story,AUDIO_STORY,1;30,1;28,Yes
-088 Flashback (Excerpt)-,flashback_excerpt,0;32,0;32,No
+088 Flashback (Excerpt),flashback_excerpt,0;32,0;32,No
 090 And Now For Today’s Sponsors…!,baci_perugina,0;31,0;31,No
 "091 MIKE, the BOARD, please!",ch3_tvtime,0;32,0;32,No
 092 Sandy Board,ch3_board1,1;18,1;18,No
 093 Adventure Board,board_zelda,0;59,0;59,No
 095 Quiz!,TV_GAME,1;16,1;16,No
-096 Dig! Dig! To The Center of the Earth!,board_lancer_dig,0;08,0;07,Yes
+096 Dig! Dig! To The Center of the Earth!,board_lancer_dig,0;07,0;07,No
 097 Pushing Buddies,tvromance,0;19,0;19,No
 098 Ruder Buster,rudebuster_boss,1;46,1;43,Yes
 099 Physical Challenge,minigame_kart,1;47,1;43,Yes
-101 Welcome to the Green Room,greenroom_detune,0;45,0;45,No
+101 Welcome to the Green Room,greenroom_detune,1;30,0;45,Yes
 102 Vapor Buster,battle_vapor,2;00,1;55,Yes
 "103 Paradise, Paradise",tenna_island,2;30,2;30,No
 104 Raft Ride,ch3_board2,1;09,1;09,No
@@ -115,7 +115,7 @@
 123 BIT ROOTS,root_8bit,1;17,1;17,No
 124 ERAM,nightmare_nes,0;15,0;04,Yes
 125 BURNING EYES,nightmare_boss_heavy,1;05,1;05,No
-126 Old wooden rafters,church_lw,1;39,1;38,Yes
+126 Old wooden rafters,church_lw,1;38,1;38,No
 127 Hymn,church_hymn,0;33,0;33,No
 128 Another day in hometown,town_day,2;19,2;19,No
 129 Friends,susie_diner,1;25,1;21,Yes
@@ -138,7 +138,7 @@
 147 The Second Sanctuary,second_church,2;46,2;46,No
 149 13am,tin_night,1;26,1;26,No
 150 The Third Sanctuary,church_zone3,4;07,4;07,No
-151 Dark Place,dark_place,0;59,0;58,Yes
+151 Dark Place,dark_place,0;58,0;58,No
 152 Heavy Footsteps,titan_pre,0;38,0;38,No
 153 Crumbling Tower,titan_tower,2;49,2;46,Yes
 154 SPAWN,titan_spawn,3;46,3;46,No

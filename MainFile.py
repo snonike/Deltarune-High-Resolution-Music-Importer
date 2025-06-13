@@ -17,7 +17,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
         outputFilePath = deltaruneDirectory[1:len(deltaruneDirectory)-1]+"\\mus"+'\\'+musicFileNames["GameFileName"][count]
         command = [
         'ffmpeg',
-        '-i', inputFilePath+'.mp3',
+        '-i', inputFilePath+'.flac',
         '-map', '0:a',
         '-c:a', 'libvorbis',
         '-q:a', '10',
@@ -39,7 +39,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
         command = [
         'ffmpeg',
         '-ss', '0',
-        '-i', inputFilePath+'.mp3',
+        '-i', inputFilePath+'.flac',
         '-t', str(ostLength),
         '-map', '0:a',
         '-c:a', 'libvorbis',
@@ -64,7 +64,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
         command = [
         'ffmpeg',
         '-ss', '0',
-        '-i', inputFilePath+'.mp3',
+        '-i', inputFilePath+'.flac',
         '-t', str(inGameLength),
         '-map', '0:a',
         '-c:a', 'libvorbis',
@@ -99,7 +99,7 @@ def TrimmedConverter(musicFileNames,deltaruneDirectory,ostDirectory):
     command = [
     'ffmpeg',
     '-ss', str(startPoint),
-    '-i', inputFilePath+'.mp3',
+    '-i', inputFilePath+'.flac',
     '-t', str(endPoint),
     '-map', '0:a',
     '-c:a', 'libvorbis',
@@ -141,7 +141,7 @@ ostDirectory = ostDirectory[ostDirectory.find('"'):ostDirectory.find('"',ostDire
 # print(ostDirectory)
 
 
-#Convert all OST MP3 Files to OGG and overwrite the files in the deltarune/mus folder
+#Convert all OST FLAC Files to OGG and overwrite the files in the deltarune/mus folder
 count = 0
 while(count<musicFileNamesLength):
     Converter(musicFileNames,deltaruneDirectory,ostDirectory)
