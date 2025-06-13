@@ -1,2 +1,153 @@
-﻿OSTFileName,GameFileName
-008 The Legend.mp3,legend.ogg
+﻿OSTFileName,GameFileName,OSTLength,InGameLength,Modify
+001 ANOTHER HIM,AUDIO_ANOTHERHIM,0;48,0;48,No
+002 Beginning,mus_introcar,0;57,0;57,No
+003 School,mus_school,1;20,1;20,No
+004 Susie,s_neo,0;27,0;27,No
+005 The Door,creepydoor,0;41,0;41,No
+006 Cliffs,creepylandscape,0;35,0;35,No
+007 The Chase,creepychase,0;33,0;33,No
+008 The Legend,legend,1;51,1;51,No
+009 Lancer,lancer,0;48,0;48,No
+010 Rude Buster,battle,1;15,1;15,No
+011 Empty Town,castletown_empty,1;23,1;23,No
+012 Weird Birds,bird,0;16,0;16,No
+013 Field of Hopes and Dreams,field_of_hopes,2;41,2;41,No
+014 Fanfare (from Rose of Winter),fanfare,0;15,0;10,Yes
+015 Lantern,shop1,1;08,1;08,No
+016 I'm Very Bad,lancer_susie,0;13,0;12,Yes
+017 Checker Dance,checkers,1;18,1;17,Yes
+018 Quiet Autumn,quiet_autumn,0;49,0;49,No
+019 Scarlet Forest,forest,2;08,2;08,No
+020 Thrash Machine,thrashmachine,0;54,0;54,No
+021 Vs. Lancer,lancerfight,0;42,0;41,Yes
+022 Basement,basement,0;28,0;26,Yes
+023 Imminent Death,tense,0;20,0;20,No
+024 Vs. Susie,vs_susie,1;21,1;21,No
+025 Card Castle,card_castle,1;01,1;01,Yes
+026 Rouxls Kaard,ruruskaado,0;19,0;19,No
+027 April 2012,april_2012,0;20,0;20,No
+028 Hip Shop,hip_shop,0;39,0;39,No
+029 Gallery,GALLERY,0;12,0;12,No
+030 Chaos King,kingboss,1;46,1;46,No
+031 Darkness Falls,AUDIO_DARKNESS,1;07,1;09,Yes
+032 The Circus,prejoker,0;51,0;51,No
+033 THE WORLD REVOLVING,joker,1;41,1;41,No
+034 Friendship,friendship,2;40,2;39,Yes
+035 THE HOLY,THE_HOLY,0;48,0;48,No
+037 A Town Called Hometown,town,1;53,1;53,No
+038 You Can Always Come Home,home,1;40,1;40,No
+039 Don't Forget,dontforget,0;51,0;51,No
+040 Before the Story,AUDIO_STORY,1;28,1;28,No
+041 Faint Glow,menu,1;17,1;17,No
+042 Girl Next Door,noelle_school,0;54,0;53,Yes
+043 My Castle Town,castletown,2;07,2;06,Yes
+044 Ohhhhohohoho!,queen_intro,0;09,0;09,No
+045 Queen,queen,0;56,0;56,No
+046 A CYBER'S WORLD-,cyber,2;46,2;44,Yes
+047 A Simple Diversion,boxing_game,0;31,0;29,Yes
+048 Almost To The Guys!,cyber_battle_prelude,0;17,0;16,Yes
+049 Cool Beat,music_guys_intro,0;17,0;08,Yes
+050 When I Get Mad I Dance Like This,music_guys,0;10,0;05,Yes
+052 When I Get Happy I Dance Like This,cyber_battle_end,0;19,0;19,No
+053 Sound Studio,cyber_shop,1;08,1;06,Yes
+054 Berdly,berdly_theme,0;46,0;44,Yes
+055 Smart Race,berdly_chase,1;06,1;04,Yes
+056 Faint Courage (Game Over),AUDIO_DEFEAT,0;52,0;50,Yes
+057 WELCOME TO THE CITY,cybercity,1;54,1;50,Yes
+058 Mini Studio,cyberhouse,0;51,0;49,Yes
+059 Holiday Studio,cybershop_christmas,1;08,1;06,Yes
+060 Cool Mixtape,queen_car_radio,0;26,0;26,No
+061 HEY EVERY !,spamton_meeting_intro,0;18,0;02,Yes
+062 Spamton,spamton_meeting,0;43,0;40,Yes
+063 NOW'S YOUR CHANCE TO BE A,spamton_battle,1;07,1;05,Yes
+064 Elegant Entrance,mansion_entrance,1;18,1;16,Yes
+065 Bluebird of Misfortune,berdly_flashback,0;49,0;48,Yes
+066 Pandora Palace,mansion,1;39,1;37,Yes
+067 KEYGEN,KEYGEN,0;15,0;07,Yes
+068 Acid Tunnel of Love,acid_tunnel,1;30,1;28,Yes
+069 It's Pronounced -Rules-,rouxls_battle,1;01,0;58,Yes
+070 Lost Girl,noelle_normal,1;20,1;16,Yes
+071 Ferris Wheel,noelle_ferriswheel,1;19,1;16,Yes
+072 Attack of the Killer Queen,queen_boss,2;00,2;00,No
+073 Giga Size,giant_queen_appears,1;47,1;45,Yes
+074 Powers Combined,gigaqueen_pre,0;16,0;16,Yes
+075 Knock You Down !!,boxing_boss,2;26,2;22,Yes
+076 The Dark Truth,the_dark_truth,1;12,1;07,Yes
+077 Digital Roots,spamton_basement,0;33,0;16,Yes
+078 Deal Gone Wrong,spamton_neo_meeting,0;31,0;29,Yes
+079 BIG SHOT,spamton_neo_mix_ex_wip,2;22,2;20,Yes
+080 A Real Boy!,spamton_happy,0;15,0;07,Yes
+081 Dialtone,spamton_neo_after,0;44,0;44,No
+082 sans.,muscle,0;50,0;22,Yes
+083 Chill Jailbreak Alarm To Study And Relax To,napsta_alarm,0;24,0;24,No
+084 You Can Always Come Home,home,1;43,1;40,Yes
+085 Until Next Time,ch2_credits,1;02,1;01,Yes
+086 Before The Story,AUDIO_STORY,1;30,1;28,Yes
+088 Flashback (Excerpt)-,flashback_excerpt,0;32,0;32,No
+090 And Now For Today’s Sponsors…!,baci_perugina,0;31,0;31,No
+"091 MIKE, the BOARD, please!",ch3_tvtime,0;32,0;32,No
+092 Sandy Board,ch3_board1,1;18,1;18,No
+093 Adventure Board,board_zelda,0;59,0;59,No
+095 Quiz!,TV_GAME,1;16,1;16,No
+096 Dig! Dig! To The Center of the Earth!,board_lancer_dig,0;08,0;07,Yes
+097 Pushing Buddies,tvromance,0;19,0;19,No
+098 Ruder Buster,rudebuster_boss,1;46,1;43,Yes
+099 Physical Challenge,minigame_kart,1;47,1;43,Yes
+101 Welcome to the Green Room,greenroom_detune,0;45,0;45,No
+102 Vapor Buster,battle_vapor,2;00,1;55,Yes
+"103 Paradise, Paradise",tenna_island,2;30,2;30,No
+104 Raft Ride,ch3_board2,1;09,1;09,No
+105 SOUTH OF THE BORDER!!,ch3_south_of_the_border,0;12,0;06,Yes
+108 KING OF ROLYPOLY,trank,0;48,0;24,Yes
+110 Big City Board,ch3_board3,1;22,1;22,No
+111 Doom Board,board_4,0;52,0;52,No
+112 Metaphysical Challenge,board_4_challenge,0;52,0;52,No
+113 TV WORLD,tv_world,2;09,2;09,No
+114 It’s TV Time!,tenna_battle,2;45,2;45,No
+115 Hall of Fame,tv_hall_of_fame,0;30,0;27,Yes
+116 Breath,knight_appears,0;14,0;13,Yes
+117 Black Knife,knight,1;57,1;57,No
+118 Crickets,night_ambience,0;36,0;35,Yes
+119 Dump,tv_changingroom,0;40,0;40,No
+120 SWORD,board_sword_music,2;12,2;12,No
+121 NORTHERNLIGHT,northernlight,0;22,0;11,Yes
+122 GLACEIR,glacier,1;07,1;07,No
+123 BIT ROOTS,root_8bit,1;17,1;17,No
+124 ERAM,nightmare_nes,0;15,0;04,Yes
+125 BURNING EYES,nightmare_boss_heavy,1;05,1;05,No
+126 Old wooden rafters,church_lw,1;39,1;38,Yes
+127 Hymn,church_hymn,0;33,0;33,No
+128 Another day in hometown,town_day,2;19,2;19,No
+129 Friends,susie_diner,1;25,1;21,Yes
+130 Castle Funk,castle_funk_long,2;56,2;56,No
+132 Gingerbread House,noelle_house_wip,1;27,1;27,No
+133 The distance between two,noelle_distant,0;42,0;42,No
+134 C,carol_appeared,0;41,0;41,No
+135 ATRIUM,darkchurch_intro,1;00,0;57,Yes
+136 Dark Sanctuary,church_wip,1;46,1;46,No
+137 From Now On (Battle 2),ch4_battle,1;48,1;48,No
+138 Gyaa Ha ha!,gerson_theme_intro,1;15,1;13,Yes
+139 Fireplace,church_dark_study,2;37,2;37,No
+140 A DARK ZONE,pumpkin_boss,2;18,2;18,No
+141 Mysterious Ringing,bell_ambience,0;22,0;22,No
+142 Ever Higher,climb,1;27,1;27,No
+143 Wise words,gerson_defeated,0;42,0;42,No
+144 Piano that may not be played that well,kris_piano_lower,0;42,0;42,No
+145 Hammer of Justice,ch4_extra_boss,2;13,2;13,No
+146 12am,church_lw_night,0;34,0;16,Yes
+147 The Second Sanctuary,second_church,2;46,2;46,No
+149 13am,tin_night,1;26,1;26,No
+150 The Third Sanctuary,church_zone3,4;07,4;07,No
+151 Dark Place,dark_place,0;59,0;58,Yes
+152 Heavy Footsteps,titan_pre,0;38,0;38,No
+153 Crumbling Tower,titan_tower,2;49,2;46,Yes
+154 SPAWN,titan_spawn,3;46,3;46,No
+155 GUARDIAN,titan_battle,1;11,1;11,No
+156 Need a hand!-,oldman_helps_out,0;46,0;46,No
+157 The place where it rained,rain,2;52,2;52,No
+158 The Ol’ Jitterbug,jitterbug,0;22,0;22,No
+159 Neverending Night,ch4_credits,1;39,1;38,Yes
+160 The LEGEND...-,legend_altered,0;26,0;26,No
+161 With Hope Crossed On Our Hearts,quiet_church,1;39,1;36,Yes
+162 Volume Adjustment,mike_zone,0;36,0;36,No
+163 Catswing,mike,1;58,1;58,No

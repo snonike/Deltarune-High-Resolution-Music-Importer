@@ -1,2 +1,2 @@
-DeltaruneDirectory="H:\Games\DELTARUNE\mus"
+DeltaruneDirectory="C:\Code\DeltaruneHiResMusicImporter\Deltarune-HiRes-Music-Importer\Temp"
 OSTDirectory="H:\Games\DELTARUNE\DELTARUNESoundtrack"
