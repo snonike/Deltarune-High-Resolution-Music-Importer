@@ -1,2 +1,3 @@
 DeltaruneDirectory="C:\Program Files (x86)\Steam\steamapps\common\DELTARUNE"
 OSTDirectory="C:\Program Files (x86)\Steam\steamapps\music\DELTARUNESoundtrack"
+FileType=".flac"

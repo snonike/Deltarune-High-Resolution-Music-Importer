@@ -6,7 +6,7 @@ from os.path import dirname as up
 
 
 
-def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
+def Converter(musicFileNames,deltaruneDirectory,ostDirectory,fileType):
 
       #Format the Time for both the ost length and InGameLength from the csv into seconds
     ostLength = int(musicFileNames["OSTLength"][count][0:1])*60 + int(musicFileNames["OSTLength"][count][2:3])
@@ -17,7 +17,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
         outputFilePath = deltaruneDirectory[1:len(deltaruneDirectory)-1]+"\\mus"+'\\'+musicFileNames["GameFileName"][count]
         command = [
         'ffmpeg',
-        '-i', inputFilePath+'.flac',
+        '-i', inputFilePath+fileType,
         '-map', '0:a',
         '-c:a', 'libvorbis',
         '-q:a', '10',
@@ -39,7 +39,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
         command = [
         'ffmpeg',
         '-ss', '0',
-        '-i', inputFilePath+'.flac',
+        '-i', inputFilePath+fileType,
         '-t', str(ostLength),
         '-map', '0:a',
         '-c:a', 'libvorbis',
@@ -64,7 +64,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
         command = [
         'ffmpeg',
         '-ss', '0',
-        '-i', inputFilePath+'.flac',
+        '-i', inputFilePath+fileType,
         '-t', str(inGameLength),
         '-map', '0:a',
         '-c:a', 'libvorbis',
@@ -88,7 +88,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory):
     print(musicFileNames["OSTFileName"][count]+ " converted and moved")
 
 #Trims a song down from the front using a start point
-def TrimmedConverter(musicFileNames,deltaruneDirectory,ostDirectory):
+def TrimmedConverter(musicFileNames,deltaruneDirectory,ostDirectory,fileType):
 
     #Format the Time for both the ost length and InGameLength from the csv into seconds
     startPoint = int(musicFileNames["StartPoint"][count][0:1])*60 + int(musicFileNames["StartPoint"][count][2:3])
@@ -99,7 +99,7 @@ def TrimmedConverter(musicFileNames,deltaruneDirectory,ostDirectory):
     command = [
     'ffmpeg',
     '-ss', str(startPoint),
-    '-i', inputFilePath+'.flac',
+    '-i', inputFilePath+fileType,
     '-t', str(endPoint),
     '-map', '0:a',
     '-c:a', 'libvorbis',
@@ -137,6 +137,8 @@ deltaruneDirectory = configFile.readline()
 deltaruneDirectory = deltaruneDirectory[deltaruneDirectory.find('"'):deltaruneDirectory.find('"',deltaruneDirectory.find('"')+1)+1]
 ostDirectory = configFile.readline()
 ostDirectory = ostDirectory[ostDirectory.find('"'):ostDirectory.find('"',ostDirectory.find('"')+1)+1]
+fileType = configFile.readline()
+fileType = fileType[fileType.find('"'):fileType.find('"',fileType.find('"')+1)+1]
 # print(deltaruneDirectory)
 # print(ostDirectory)
 
@@ -144,19 +146,19 @@ ostDirectory = ostDirectory[ostDirectory.find('"'):ostDirectory.find('"',ostDire
 #Convert all OST FLAC Files to OGG and overwrite the files in the deltarune/mus folder
 count = 0
 while(count<musicFileNamesLength):
-    Converter(musicFileNames,deltaruneDirectory,ostDirectory)
+    Converter(musicFileNames,deltaruneDirectory,ostDirectory,fileType)
 
     count+=1
 
 count = 0
 while(count<musicFileNamesSpecialFilesLength):
     #Format the Time for both the ost length and InGameLength from the csv into seconds
-    Converter(musicFileNamesSpecialFiles,deltaruneDirectory,ostDirectory)
+    Converter(musicFileNamesSpecialFiles,deltaruneDirectory,ostDirectory,fileType)
     count+=1
 
 count = 0
 while(count<musicFileNamesTrimmedSongsLength):
-    TrimmedConverter(musicFileNamesTrimmedSongs,deltaruneDirectory,ostDirectory)
+    TrimmedConverter(musicFileNamesTrimmedSongs,deltaruneDirectory,ostDirectory,fileType)
     count+=1
 
 
