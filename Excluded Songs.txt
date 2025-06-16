@@ -1,9 +1,9 @@
 131 - Queen Rhythm Song / all rhythm songs are excluded as they don't have one to one versions present in the game files
-51 - Cyber Battle / it's a mix of the entire cyber battle against the music guys in chapter 2 it isn't present in the game files in a complete form
+51 - Cyber Battle / it's a mix of the entire cyber battle against the music guys in chapter 2. It isn't present in the game files in a complete form
 87 - Berdly Rejected Concept / it's a rejected concept for berdly and is therefore not present in the game files
 106 107 - rhythm game chapter 3 / as explained previously for 131
-148 - Ripple / combined song for the boss in chapter 3 it isn't used in a complete form in the game and is therefore excluded
+148 - Ripple / combined song for the boss in chapter 3. It isn't used in a complete form in the game and is therefore excluded
 109 - Glowing Snow / slowed down version of tv_results_screen, speeding it up introduces distortion so it's not viable to convert it
-94 100 - Retro Songs / I think they might be somewhere in the files but after checking multiple times I'm really not sure if someone finds them let me know and I'll update the csv
+94 100 - Retro Songs / I think they might be somewhere in the files but after checking multiple times, I'm really not sure. If someone finds them let me know and I'll update the csv
 164 - AIRWAVES / Nintendo switch exclusive song apparently
 165 - Concert for you / I think it's in the files somewhere but I couldn't find it and it's a plink sound
