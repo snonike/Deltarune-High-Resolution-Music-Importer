@@ -9,8 +9,22 @@ from os.path import dirname as up
 def Converter(musicFileNames,deltaruneDirectory,ostDirectory,fileType):
 
       #Format the Time for both the ost length and InGameLength from the csv into seconds
-    ostLength = int(musicFileNames["OSTLength"][count][0:1])*60 + int(musicFileNames["OSTLength"][count][2:3])
-    inGameLength = int(musicFileNames["InGameLength"][count][0:1])*60 + int(musicFileNames["InGameLength"][count][2:3])
+
+    if(int(musicFileNames["OSTLength"][count][2]) == 0):
+        ostLength = int(musicFileNames["OSTLength"][count][0:1])*60 + int(musicFileNames["OSTLength"][count][3])
+    else:
+        ostLength = int(musicFileNames["OSTLength"][count][0:1])*60 + int(musicFileNames["OSTLength"][count][2:3])
+
+
+
+   
+
+    #Check if first number in seconds column is 0 if so just add last column
+    if(int(musicFileNames["InGameLength"][count][2]) == 0):
+       inGameLength = int(musicFileNames["InGameLength"][count][0:1])*60 + int(musicFileNames["InGameLength"][count][3])
+    else:
+       inGameLength = int(musicFileNames["InGameLength"][count][0:1])*60 + int(musicFileNames["InGameLength"][count][2:3])
+
     #Check if the Output length is equal or below the input length there is only one such case in the game rn but just in case a full function will be written
     if(ostLength==inGameLength):
         inputFilePath = ostDirectory[1:len(ostDirectory)-1]+'\\'+musicFileNames["OSTFileName"][count]
@@ -40,7 +54,7 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory,fileType):
         'ffmpeg',
         '-ss', '0',
         '-i', inputFilePath+fileType,
-        '-t', str(ostLength),
+        '-t', str(inGameLength),
         '-map', '0:a',
         '-c:a', 'libvorbis',
         '-q:a', '10',
