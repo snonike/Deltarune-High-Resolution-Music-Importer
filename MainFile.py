@@ -10,20 +10,16 @@ def Converter(musicFileNames,deltaruneDirectory,ostDirectory,fileType):
 
       #Format the Time for both the ost length and InGameLength from the csv into seconds
 
-    if(int(musicFileNames["OSTLength"][count][2]) == 0):
-        ostLength = int(musicFileNames["OSTLength"][count][0:1])*60 + int(musicFileNames["OSTLength"][count][3])
-    else:
-        ostLength = int(musicFileNames["OSTLength"][count][0:1])*60 + int(musicFileNames["OSTLength"][count][2:3])
 
+    #print("OSTFileName: "+musicFileNames["OSTFileName"][count])
+    ostLength = int(musicFileNames["OSTLength"][count][0:1])*60 + int(musicFileNames["OSTLength"][count][2])*10 + int(musicFileNames["OSTLength"][count][3])
+    #print(f"OstLength: {ostLength}")
+    inGameLength = int(musicFileNames["InGameLength"][count][0:1])*60 + int(musicFileNames["InGameLength"][count][2])*10 + int(musicFileNames["InGameLength"][count][3])
+    #print(f"InGameLength: {inGameLength}")
 
 
    
 
-    #Check if first number in seconds column is 0 if so just add last column
-    if(int(musicFileNames["InGameLength"][count][2]) == 0):
-       inGameLength = int(musicFileNames["InGameLength"][count][0:1])*60 + int(musicFileNames["InGameLength"][count][3])
-    else:
-       inGameLength = int(musicFileNames["InGameLength"][count][0:1])*60 + int(musicFileNames["InGameLength"][count][2:3])
 
     #Check if the Output length is equal or below the input length there is only one such case in the game rn but just in case a full function will be written
     if(ostLength==inGameLength):
@@ -139,6 +135,7 @@ def TrimmedConverter(musicFileNames,deltaruneDirectory,ostDirectory,fileType):
 
 
 #workingPath = 
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 configFile = open("Config.txt")
 musicFileNames = pd.read_csv("MusicFileNames.csv")
@@ -152,7 +149,8 @@ deltaruneDirectory = deltaruneDirectory[deltaruneDirectory.find('"'):deltaruneDi
 ostDirectory = configFile.readline()
 ostDirectory = ostDirectory[ostDirectory.find('"'):ostDirectory.find('"',ostDirectory.find('"')+1)+1]
 fileType = configFile.readline()
-fileType = fileType[fileType.find('"'):fileType.find('"',fileType.find('"')+1)+1]
+fileType = fileType[fileType.find('"')+1:fileType.rindex('"')]
+print(f"FileType: {fileType}")
 # print(deltaruneDirectory)
 # print(ostDirectory)
 
@@ -160,19 +158,31 @@ fileType = fileType[fileType.find('"'):fileType.find('"',fileType.find('"')+1)+1
 #Convert all OST FLAC Files to OGG and overwrite the files in the deltarune/mus folder
 count = 0
 while(count<musicFileNamesLength):
-    Converter(musicFileNames,deltaruneDirectory,ostDirectory,fileType)
+    try:
+        Converter(musicFileNames,deltaruneDirectory,ostDirectory,fileType)
+
+    except:
+        print(f"FAILURE AT SONG {count}")
 
     count+=1
 
 count = 0
 while(count<musicFileNamesSpecialFilesLength):
     #Format the Time for both the ost length and InGameLength from the csv into seconds
-    Converter(musicFileNamesSpecialFiles,deltaruneDirectory,ostDirectory,fileType)
+    try:
+        Converter(musicFileNamesSpecialFiles,deltaruneDirectory,ostDirectory,fileType)
+
+    except:
+        print(f"FAILURE AT SONG {count}")
+
     count+=1
 
 count = 0
 while(count<musicFileNamesTrimmedSongsLength):
-    TrimmedConverter(musicFileNamesTrimmedSongs,deltaruneDirectory,ostDirectory,fileType)
+    try:
+        TrimmedConverter(musicFileNamesTrimmedSongs,deltaruneDirectory,ostDirectory,fileType)
+    except:
+        print(f"FAILURE AT SONG {count}")
     count+=1
 
 
