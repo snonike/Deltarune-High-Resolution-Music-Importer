@@ -24,9 +24,19 @@ Now type in the directory of the OST Soundtrack that you have downloaded using t
 
 After those steps have been taken all you have to do is run the .exe file and it will take care of the rest.
 
+Once you see this
+
+![Completion Screenshot](/Images/completed.png)
+
+Then it's all done and you can delete the importer and ffmpeg
+
+
+
 ## EXTRA
 If you want to convert the mp3 files instead for whatever reason, just change the filetype in the config from .flac to .mp3 but first, make sure all of the soundtrack is in the same
 directory before running the .exe.
 
 If there is any failures, it means that the file is not present or you did not input the correct directories; so just check the directories provided in the default config they should
 both end in DELTARUNE unless you moved the files somewhere else.
+
+There are some songs in the ost which are excluded the reasons for exclusion is written in the **Excluded Songs.txt** file 
