@@ -24,7 +24,7 @@ Now type in the directory of the OST Soundtrack that you have downloaded using t
 
 After those steps have been taken all you have to do is run the .exe file and it will take care of the rest.
 
-Once you see this
+Once you see this _without any songs failing to convert_
 
 ![Completion Screenshot](/Images/completed.png)
 
