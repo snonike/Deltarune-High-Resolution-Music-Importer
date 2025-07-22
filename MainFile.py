@@ -138,7 +138,7 @@ def TrimmedConverter(musicFileNames,deltaruneDirectory,ostDirectory,fileType):
 #Uncomment this if running in interpreter
 #os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+#print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #Comment this out if running in interpreter
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
