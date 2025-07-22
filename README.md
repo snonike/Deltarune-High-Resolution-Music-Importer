@@ -1,4 +1,4 @@
-# Deltarune HiRes Music Importer
+# Deltarune High Resolution Music Importer
 Converts a downloaded deltarune chapter 1-4 ost into game ready files then replaces the existing audio files in deltarune with them.
 
 First download and install ffmpeg 
@@ -30,6 +30,9 @@ Once you see this _without any songs failing to convert_
 
 Then it's all done and you can delete the importer and ffmpeg
 
+Don't expect to notice a massive change in the audio quality given that they are still being compressed into ogg files. 
+
+Unless someone mods flac usage into the game this is the best for now :)
 
 
 ## EXTRA
