@@ -7,3 +7,5 @@
 94 100 - Retro Songs / I think they might be somewhere in the files but after checking multiple times, I'm really not sure. If someone finds them let me know and I'll update the csv
 164 - AIRWAVES / Nintendo switch exclusive song apparently
 165 - Concert for you / Made up song by toby as a nod to kris playing the piano in chapter 4
+195 - I'm like 99% sure this isn't in the game and if it is I have no clue where the file is
+205 - same as 195

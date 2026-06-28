@@ -1,4 +1,4 @@
-﻿OSTFileName,GameFileName,OSTLength,InGameLength,Modify
+OSTFileName,GameFileName,OSTLength,InGameLength,Modify
 001 ANOTHER HIM,AUDIO_ANOTHERHIM,0;48,0;48,No
 002 Beginning,mus_introcar,0;57,0;57,No
 003 School,mus_school,1;20,1;20,No
@@ -151,3 +151,41 @@
 161 With Hope Crossed On Our Hearts,quiet_church,1;39,1;36,Yes
 162 Volume Adjustment,mike_zone,0;36,0;36,No
 163 Catswing,mike,1;58,1;58,No
+166 Chapter 5 Logo,deltarune_logo_ch5_itoki,0;08,0;08,No
+167 Inappropriate Recycling,inappropriate_recycling,1;36,1;36,No
+168 Pirate Dojo,pirate_zone,0;52,0;52,No
+169 4rd Sanctuary,4rd_sanctuary,1;19,1;19,No
+170 Festival,festival,2;00,2;00,No
+171 Catfession...,catti_confession,0;42,0;39,Yes
+172 Bratfession...,bratty_confession,0;42,0;39,Yes
+173 I guess I'm in love,festival_after,2;57,2;57,No
+174 Weirder Birds,birds_ch5,0;37,0;37,No
+175 Your Dad's Best Friend,flowery,0;14,0;14,No
+176 Garden of Hopes and Dreams,field_of_hopes_insaneintherain_loop,3;23,3;23,No
+177 Rakuichi Buster,rakuichi_buster_wip,1;49,1;49,No
+178 The Diner Song of Best Friends,flowery_diner_romantic,1;25,1;25,No
+179 Ride the Board,thrash_rating,0;10,0;10,No
+180 Quiet Glade,piano_ambience,3;17,3;17,No
+181 Who might you be,meeting_flower,1;04,0;32,Yes
+182 Petal Dance,miniboss_new_section_idea_wip,1;32,1;32,No
+183 Flying Feather,cliff_jump_ambience,0;27,0;23,Yes
+184 Sunset of Seven Suns,cliff,1;36,1;36,No
+185 Shop 3,shop_3,1;15,1;15,No
+186 Violet Tactics,castle_loop,1;05,1;05,No
+187 Flower King,asgore_serious,0;40,0;40,No
+188 Flower Foyer,castle_foyer,0;55,0;52,Yes
+189 Flower Castle,flower_castle,4;30,4;30,No
+190 Thousand Cafe Zukan,flower_cafe,1;29,1;29,No
+191 I'm Telling!,meeting_flower_orange_highpitch,0;40,0;40,No
+"192 Stop, Criminell!",meeting_flower_cowboy,0;45,0;45,No
+193 Loving Steps,blue_flower,2;13,2;11,Yes
+194 Running Water 3,running_water,1;43,1;43,No
+196 Pink,pink_theme,1;13,1;13,No
+197 Cutie Mew Mew Magic,pink,3;04,3;04,No
+198 Running Sky,castle_top,2;22,2;22,No
+199 Flower Man,Flowerman_Arrangement,3;12,3;12,No
+200 That Day,asgore_conspiracy,1;30,1;30,No
+201 Dreamwatchers,flowery_iog_extended,1;17,1;15,Yes
+202 Weak Flowers,flowery_sad,1;42,1;42,No
+203 Walking Home,festival_night,2;16,2;16,No
+204 Scarlet Forest (Credits Version),ch5_credits,1;39,1;39,No
